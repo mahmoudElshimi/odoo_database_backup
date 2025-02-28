@@ -2,10 +2,21 @@
 
 # MIT/X Consortium License
 # © 2025 mahmoudElshimi <mahmoudelshimi@protonmail.ch>
+# https://github.com/mahmoudElshimi/odoo_database_backup
+
+
 
 # === Set Strict Error Handling ===
 set -e  # Exit immediately if a command fails
 trap 'echo "An error occurred. Exiting..." && exit 1' ERR
+
+
+# === Validate Input ===
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <backup_file.zip>"
+    echo "Check: https://github.com/mahmoudElshimi/odoo_database_backup"
+    exit 1
+fi
 
 # === Variables ===
 zipfile="$1"  # Zip file passed as argument

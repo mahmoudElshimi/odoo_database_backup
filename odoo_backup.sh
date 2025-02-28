@@ -2,6 +2,7 @@
 
 # MIT/X Consortium License
 # © 2025 mahmoudElshimi <mahmoudelshimi@protonmail.ch>
+# https://github.com/mahmoudElshimi/odoo_database_backup
 
 # === Set Strict Error Handling ===
 set -e  # Exit immediately if a command fails
