@@ -3,11 +3,15 @@
 This repository contains two Bash scripts to **backup and restore** an Odoo database along with its filestore.
 
 ## Features
-✅ Automates PostgreSQL database and filestore backup  
-✅ Compresses backup with timestamped ZIP format  
-✅ Restores database and filestore with error handling  
-✅ Ensures safe rollback of previous filestore  
-✅ Supports automatic scheduled backups  
+- Automates PostgreSQL database and filestore backup  
+- Compresses backup with timestamped ZIP format  
+- Restores database and filestore with error handling  
+- Ensures safe rollback of previous filestore  
+- Supports automatic scheduled backups  
+
+
+### Note:
+This module is actively developed and open to improvements. Contributions, feedback, and suggestions are highly welcome! Remember: **RTFM** (Read The F*cking Manual) and **KISS** (Keep It Simple, Stupid!). 
 
 ---
 
