@@ -15,7 +15,7 @@ This module is actively developed and open to improvements. Contributions, feedb
 
 ---
 
-## 1️⃣ Backup Script (`odoo_backup.sh`)
+## 1 Backup Script (`odoo_backup.sh`)
 
 ### **Usage**
 Run the script to create a backup of your Odoo database and filestore:
@@ -43,7 +43,7 @@ This runs the backup script **every night at 2:00 AM** and logs output to `/var/
 
 ---
 
-## 2️⃣ Restore Script (`odoo_restore.sh`)
+## 2 Restore Script (`odoo_restore.sh`)
 
 ### **Usage**
 Run the script with the backup ZIP file:
@@ -59,7 +59,7 @@ Run the script with the backup ZIP file:
 
 ---
 
-## 3️⃣ Database Credentials Setup  
+## 3 Database Credentials Setup  
 
 If the PostgreSQL user does not have a password, set it with:
 ```bash
@@ -70,7 +70,7 @@ ALTER USER user WITH PASSWORD 'your_password';
 
 ---
 
-## 4️⃣ Preparing for Restore  
+## 4 Preparing for Restore  
 
 If a database with the same name exists, drop and recreate it before restoring:
 ```bash
@@ -80,7 +80,7 @@ sudo -u postgres createdb -O user database_name
 
 ---
 
-## 5️⃣ Filestore Location  
+## 5 Filestore Location  
 
 For source-based Odoo installations, filestore is usually under:
 ```
