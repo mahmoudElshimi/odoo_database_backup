@@ -91,5 +91,5 @@ For other installations (Docker, custom setups), **verify the actual filestore p
 ---
 
 ## License  
-This project is released under the MIT License.
+This project is released under the MIT/X License.
 
