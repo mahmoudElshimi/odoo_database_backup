@@ -30,7 +30,7 @@ Run the script to create a backup of your Odoo database and filestore:
   ```
 - Retains backups for **7 days**, deleting older ones automatically  
 
-### ** Automating Backups with Cron**  
+### **Automating Backups with Cron**  
 To schedule a daily backup at **2:00 AM**, add this cron job:  
 ```bash
 crontab -e
